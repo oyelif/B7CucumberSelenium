@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/eurotech/step_definitions",
         dryRun = false, // false hepsi calisir //true tatbikat
-        tags = "@rerun" //or - and de diyebiliriz //"@wip or and not @teacher"
+        tags = "@smoke" //or - and de diyebiliriz //"@wip or and not @teacher"
         //@wip = work in progress
 )
 public class CukesRunner {
