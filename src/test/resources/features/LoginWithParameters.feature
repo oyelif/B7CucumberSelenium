@@ -7,7 +7,8 @@ Feature: Log in with different user
     Then The user should be able to login
     And The welcome message contains "Teacher"
 
-    Scenario: Log is as a Jack Bauer with parameters
+  @rerun @smoke
+  Scenario: Log is as a Jack Bauer with parameters
       Given The user is on the login page
       When The user logs in using "jackbauer@gmail.com" and "Admin123"
       Then The user should be able to login

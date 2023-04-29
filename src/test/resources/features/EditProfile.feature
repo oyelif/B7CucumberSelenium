@@ -3,7 +3,7 @@ Feature: The user should be able to edit profile
   Background:
     Given The user is on the login page
 
-  @editProfile
+  @editProfile  @wip
   Scenario: edit profile
     And The user logs in using "anna@gmail.com" and "Test1234"
     When The user navigates to "Edit Profile" menu
@@ -16,7 +16,7 @@ Feature: The user should be able to edit profile
     And The user add "githubusername" "intern23"
     And The user add "bio" "New Company, new adventure"
    # And The user clicks submit button
-  @wip
+
   Scenario Outline: edit profile with scenario outline
     And The user logs in using "<email>" and "<password>"
     When The user navigates to "<edit add module>" menu

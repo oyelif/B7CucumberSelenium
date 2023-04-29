@@ -7,7 +7,7 @@ Feature: DevEx log in test
     When The user enters teacher credentials
     Then The user should be able to login
 
-  @student
+  @wip
   Scenario: Log in es a student
     Given The user is on the login page
     When The user enters student credentials
